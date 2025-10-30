@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "noidung.dhcongdoan.vn",
+        protocol: "http",
+        hostname: "10.10.92.6",
+        port: "8060",
         pathname: "/**"
       }
     ],
